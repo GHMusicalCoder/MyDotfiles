@@ -1,0 +1,8 @@
+# My Current Aliases
+alias update='sudo apt update; apt list --upgradable'
+alias upgrade='sudo apt upgrade; sudo apt auto-remove'
+alias install='sudo apt install'
+alias search='apt search'
+alias upsource='source ~/.bashrc'
+alias fonts='sudo fc-cache -fv'
+

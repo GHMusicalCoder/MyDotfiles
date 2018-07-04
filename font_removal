@@ -1,0 +1,20 @@
+sudo apt remove fonts-noto* fonts-kacst* fonts-khmeros* fonts-lklug* \
+fonts-lohit* fonts-deva fonts-gujr fonts-guru fonts-knda fonts-mlym \
+fonts-orya fonts-taml fonts-telu fonts-nanum* fonts-sil* fonts-tiresias \
+fonts-takao* fonts-tibetan* fonts-droid* fonts-opendys* fonts-beng* \
+fonts-gargi fonts-gubbi fonts-kalapi fonts-mathjax* fonts-nakula \
+fonts-navilu fonts-sahadeva fonts-samy* fonts-sarai fonts-smc* \
+fonts-pagul
+
+sudo rm -rf /usr/share/fonts/truetype/lao
+sudo rm -rf /usr/share/fonts/truetype/fonts-guru-extra
+sudo rm -rf /usr/share/fonts/truetype/openoffice
+sudo rm -rf /usr/share/fonts/truetype/fonts-deva-extra
+sudo rm -rf /usr/share/fonts/truetype/fonts-gujr-extra
+sudo rm -rf /usr/share/fonts/truetype/fonts-orya-extra
+sudo rm -rf /usr/share/fonts/truetype/fonts-telu-extra
+sudo rm -rf /usr/share/fonts/truetype/tlwg
+
+
+exit
+
