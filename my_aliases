@@ -5,5 +5,6 @@ alias install='sudo apt install'
 alias search='apt search'
 alias upsource='source ~/.bashrc'
 alias fonts='sudo fc-cache -fv'
+alias getdev1='nmap -sn 192.168.60.0/24'
 alias iplist='nmap -sn 192.168.88.0/24'
 
