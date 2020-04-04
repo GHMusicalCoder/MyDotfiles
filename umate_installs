@@ -3,6 +3,6 @@ mpg123 curl make build-essential libssl-dev \
 zlib1g-dev libreadline-dev wget llvm libncurses5-dev \
 libncursesw5-dev xz-utils tk-dev yasm autoconf \
 autotools-dev fontconfig libjpeg-dev youtube-dl fdkaac \
-hplip-gui
+hplip-gui neofetch
 
 exit
