@@ -3,7 +3,7 @@ mpg123 curl make build-essential libssl-dev \
 zlib1g-dev libreadline-dev wget llvm libncurses5-dev \
 libncursesw5-dev xz-utils tk-dev yasm autoconf \
 autotools-dev fontconfig libjpeg-dev youtube-dl fdkaac \
-hplip-gui neofetch qemu
+hplip-gui neofetch 
 
 sudo snap install lbry; sudo snap connect lbry:password-manager-service
 sudo snap install codium --classic
