@@ -3,9 +3,12 @@ mpg123 curl make build-essential libssl-dev \
 zlib1g-dev libreadline-dev wget llvm libncurses5-dev \
 libncursesw5-dev xz-utils tk-dev yasm autoconf \
 autotools-dev fontconfig libjpeg-dev youtube-dl fdkaac \
-hplip-gui neofetch
+hplip-gui neofetch qemu
 
-sudo snap install lbry & sudo snap connect lbry:password-manager-service
+sudo snap install lbry; sudo snap connect lbry:password-manager-service
 sudo snap install codium --classic
+
+snap install qemu-virgil --edge; snap connect qemu-virgil:kvm 
+snap connect qemu-virgil:raw-usb; snap connect qemu-virgil:removable-media
 
 exit
